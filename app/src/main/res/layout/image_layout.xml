@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/card1">
+
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+                android:background="@drawable/bgrow"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/merk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="iPhone"
+                    android:textColor="#000"
+                    android:layout_marginTop="30dp"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="180dp"/>
+                <TextView
+                    android:id="@+id/tipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="iPhone 11 pro 4/64gb"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+    <ImageView
+        android:id="@+id/imgphone"
+        android:layout_width="175dp"
+        android:layout_marginLeft="28dp"
+        android:layout_height="200dp"
+        android:src="@drawable/iphone11promax"
+        android:padding="10dp"/>
+
+
+</RelativeLayout>
